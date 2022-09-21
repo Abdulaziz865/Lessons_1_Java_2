@@ -13,8 +13,7 @@ public class Dog extends Animal {
 
     }
 
-    public final void Dog(int age) {
-
+    public final void Dog(String name, int age, Color nameEnum, Shelter shelter) {
         this.age = age;
     }
 
